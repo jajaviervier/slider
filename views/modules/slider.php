@@ -6,7 +6,7 @@
 
 $prueba = ControllerProductos::ctrMostrarBanner();
 
-//var_dump($categoria);
+//recorre la los item y los agrega al UL
 foreach ($prueba as $key => $value) {
   echo '
   <li>
@@ -36,9 +36,11 @@ foreach ($prueba as $key => $value) {
       <?php 
 
 $acumulador=0;
-//var_dump($categoria);
+//se recorre la cantidad de item y se obtiene la posicion Actual mediante un acumulador para asignarselo
+//al boton que controla el pase de diapositivas
 foreach ($prueba as $key => $value) {
   $acumulador++;
+
   echo '
   <li item="'.$acumulador.'"><i class="fas fa-circle"></i></li>';
 }

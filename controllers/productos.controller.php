@@ -20,9 +20,8 @@ class ControllerProductos {
 
 		return $respuesta;
 	}
-
+//manipulacion de la peticionn que llama al metodo del modelo
 	static public function ctrMostrarBanner() {
-
 		$tabla = "productos";
 		$respuesta = ModelProductos::mdlMostrarBaner($tabla);
 		return $respuesta;

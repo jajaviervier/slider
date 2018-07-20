@@ -19,6 +19,7 @@ class ModelProductos {
 		return $sql->fetchAll();
 	}
 
+	//metodo orientado a cagar todos los productos 
 	static public function mdlMostrarBaner($tabla){
 
 		$sql = Conexion::Conectar()->prepare("SELECT * FROM $tabla");
