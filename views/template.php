@@ -10,10 +10,10 @@
   
   ?>
 
-    <link rel="stylesheet" href="<?php echo $urlFrontEnd; ?> views/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php echo $urlFrontEnd; ?> views/https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <link rel="stylesheet" href="<?php echo $urlFrontEnd; ?> views/css/estilos.css">
-    <link rel="stylesheet" href="<?php echo $urlFrontEnd; ?> views/css/slider.css">
+    <link rel="stylesheet" href="<?php echo $urlFrontEnd; ?>views/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="<?php echo $urlFrontEnd; ?>views/css/estilos.css">
+    <link rel="stylesheet" href="<?php echo $urlFrontEnd; ?>views/css/slider.css">
 
     <title>Tienda Virtual</title>
   </head>
@@ -26,11 +26,11 @@
 
   
 
-    <script src="<?php echo $urlFrontEnd; ?> views/js/jquery-3.3.1.min.js"></script>
-    <script src="<?php echo $urlFrontEnd; ?> views/js/bootstrap.js"></script>
-    <script src="<?php echo $urlFrontEnd; ?> views/js/vue.js"></script>
-    <script src="<?php echo $urlFrontEnd; ?> views/js/header.js"></script>
-    <script src="<?php echo $urlFrontEnd; ?> views/js/slider.js"></script>
+    <script src="<?php echo $urlFrontEnd;?>views/js/jquery-3.3.1.min.js"></script>
+    <script src="<?php echo $urlFrontEnd;?>views/js/bootstrap.js"></script>
+    <script src="<?php echo $urlFrontEnd;?>views/js/vue.js"></script>
+    <script src="<?php echo $urlFrontEnd;?>views/js/header.js"></script>
+    <script src="<?php echo $urlFrontEnd;?>views/js/slider.js"></script>
  
 <script>
 $( document ).ready(function() {
