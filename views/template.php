@@ -7,7 +7,7 @@
   
   <?php
   $urlFrontEnd = Rutas::urlFrontEnd();
-  
+  $urlBackEnd = Rutas::urlBackEnd();
   ?>
 
     <link rel="stylesheet" href="<?php echo $urlFrontEnd; ?>views/css/bootstrap.min.css">
