@@ -10,7 +10,7 @@ $prueba = ControllerProductos::ctrMostrarBanner();
 foreach ($prueba as $key => $value) {
   echo '
   <li>
-  <img src="'.$urlBackEnd.'views/img/slider/back_default.jpg" alt="">
+  <img src="'.$urlBackEnd.'views/dist/img/slider/back_default.jpg" alt="">
   <div class="infoSlide">
     <div class="textoSlide">
       <h1>'.$value["titulo"].'</h1>
